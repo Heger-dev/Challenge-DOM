@@ -3,7 +3,7 @@
 ![](./TableExample.jpeg)
 
  
-#Requirements:
+# Requirements:
 
 #### 1) Table should be dynamic
 starts empty, new rows and columns should be created when pressing the New Row and New Column buttons. The first row is considered the header of the table.
