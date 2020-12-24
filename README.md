@@ -1,6 +1,6 @@
 # DOM Practice
 
-![](./TableExample.jpeg)
+![](./src/img/TableExample.jpeg)
 
  
 # Requirements:
@@ -23,7 +23,7 @@ when clicking on New Column, a modal form should pop up to specify the type of t
 - - If it's a number, it should right align the context of the cell.
 - - If it's a text, it should left align it.
 
-Editable: if the cell will get into the editable mode when double clicking. The field should be a checkbox.
+Editable: if the cell will get into the editable mode when double clicking. The field should be a checkbox. 
 
 #### 6) Columns and Rows should be reorderable
 when you click on a column header and start to drag it, that column should be able to move from one position to another. For example, if we have columns Id, Name, Age, and I want to move Age to the second position, I should be able to hold it and drag it to the second position so the columns should now be: Id, Age, Name.
@@ -31,7 +31,7 @@ When pressing Ctrl + left click on a row, this row should now be draggable and c
 #### 7) Table content should be saved in localStorage
 every time a change is made on the table (a new row, a new column, cell edit, etc.) it should be saved in localStorage. The table should a JavaScript object representation, like:
 
-![](./codeExample.jpeg)
+![](./src/img/codeExample.jpeg)
 
 
 - This way is easier to persist (like in a db or localStorage).
@@ -40,6 +40,8 @@ When the page is reloaded, the first thing that it should do is to try to get th
 #### 8) Rows should be selectable
 The first column should be a checkbox to select that specific record or multiple records or all the records. This checkbox column should be created by default for all rows.
 Delete button should be disabled by default. Only when at least on row is selected, the Delete button should be active. When clicking on this Delete button, the selected row(s) should be deleted.
+
+PD: Add option column deleted. 
 
 #### 9) Table and buttons should look nice. Use only HTML, CSS and JavaScript. No library is allowed.
 
